@@ -1,0 +1,125 @@
+@media(min-width:1200px){
+    float: none;
+
+}
+
+@media(min-width:992px) and (max-width:1199px){
+	
+
+	/* INDEX */
+    .navbar-default .navbar-nav > li > a{
+	color: #BDBDBD;
+	text-transform: uppercase;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: bold;
+    }
+
+    #jumbotronline1{
+	font-family: Bebas Neue Regular;
+	color: #ffffff;
+	font-size: 60px;
+	margin-top: 350px;
+    }
+
+    #jmb-bg{
+    	margin-bottom: 30px;
+    }
+}
+
+
+	/* PROGRAM */
+	
+
+@media(min-width:768px) and (max-width:991px){
+ .navbar-default .navbar-nav > li > a{
+	color: #BDBDBD;
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+    }
+
+    #jumbotronline1{
+	font-family: Bebas Neue Regular;
+	color: #ffffff;
+	font-size: 50px;
+	margin-top: 350px;
+	}
+
+	#menu{
+		height: 60px;
+	}
+
+	.navbar-default{
+		float: right;
+		margin-top: -45px;
+	}
+
+	#logo img{
+		width: 50px;
+		height: 50px;
+		text-align: center;
+	}
+
+
+}
+
+
+@media(min-width:480px) and (max-width:767px){   
+	
+	.navbar-default{
+	margin: 0 auto;
+	margin-top: -45px;
+	z-index: 100;
+	}
+
+
+	.navbar-collapse{
+	width: 400px;
+	background-color: #000000;
+	margin-right: 300px;
+	position: relative;
+	}
+
+	#wrapper{
+		position: absolute;
+		width: 100%;
+	}
+
+
+	#jumbotronline1{
+	font-family: Bebas Neue Regular;
+	color: #ffffff;
+	font-size: 40px;
+	margin-top: 300px;
+	padding: 30px;
+	text-align: center;
+  }
+
+  	#jumbotronline2{
+	font-family: Bebas Neue Regular;
+	color: #ffffff;
+	font-size: 30px;
+	margin-top: -60px;
+	padding: 30px;
+	text-align: center;
+  }
+
+  #socials{
+  	margin-bottom: 20px;
+  }
+}
+
+@media (min-width:320px){
+	
+
+
+
+
+
+}
+
+
+
+
