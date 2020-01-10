@@ -1,0 +1,229 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	float:none;
+	#navbar{
+		float: right;
+	}
+	
+	#navbar li {
+		margin-left: 20px;
+		padding-right: 8px;
+		padding-left: 8px;
+	}
+	
+	.carousel-content {
+		position: absolute;
+		padding-right: 35%;
+	}
+	
+	#main{
+	margin-bottom: 30px;
+	}
+	
+	#box1 {
+		position: absolute;
+		margin-top: -50px;
+
+	}
+	
+	#box2 {
+		position: absolute;
+		margin-top: -50px;
+	}
+	
+	#box3 {
+		position: absolute;
+		margin-top: -50px;
+	}
+	
+	#box4{
+		position: absolute;
+		margin-top: -50px;
+	}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	#logo {
+		text-align: center;
+	}
+	
+	#navbar {
+		float: right;
+	}
+	
+	#navbar li {
+		margin-left: 5px;
+	}
+	
+	.carousel-content {
+		position: absolute;
+		padding-right: 35%;
+	}
+	
+	#main{
+		margin-bottom: 30px;
+	}
+	
+	#box1 {
+		position: absolute;
+		margin-top: -50px;
+	}
+	
+	#box2 {
+		position: absolute;
+		margin-top: -50px;
+	}
+	
+	#box3 {
+		position: absolute;
+		margin-top: -50px;
+	}
+	
+	#box4{
+		position: absolute;
+		margin-top: -50px;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	#logo {
+		text-align: center;
+	}
+	
+	#navbar {
+		float: left;
+		margin-top: 20px;
+		margin-left: 10%;
+	}
+	
+	#navbar li {
+		margin-left: 5px;
+	}
+	
+	#input {
+		width: 70%;
+		margin-left: 15%;
+	}
+	
+	#slajder {
+		padding-bottom: 30px;
+	}
+	
+	#box1 {
+		position: absolute;
+		margin-top: -50px;
+	}
+	
+	#box2 {
+		position: absolute;
+		margin-top: -50px;
+	}
+	
+	#box3 {
+		position: absolute;
+		margin-top: 310px;
+	}
+	
+	#box4{
+		position: absolute;
+		margin-top: 310px;
+	}
+	
+	#naslov1 {
+		margin-top: 310px;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+	
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	#logo {
+		text-align: center;
+	}
+	
+	#input {
+		width: 70%;
+		margin-left: 15%;
+	}
+		
+	#slajder {
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-bottom: 30px;
+
+	}
+	
+	#navbar {
+		width: 90%;
+		padding-left: 10%;
+	}
+	
+	#navbar li img {
+		display: none;
+	} 
+	
+	#box1 {
+		position: absolute;
+		margin-top: -50px;
+		width: 100%;
+		margin-right: 50px;
+		margin-left:30px;
+	}
+	
+	#box2 {
+		position: absolute;
+		margin-top: 270px;
+		width: 100%;
+		margin-right: 50px;
+		margin-left:30px;
+	}
+	
+	#box3 {
+		position: absolute;
+		margin-top: 590px;
+		width: 100%;
+		margin-right: 50px;
+		margin-left:30px;
+	}
+	
+	#box4{
+		position: absolute;
+		margin-top: 940px;
+		width: 100%;
+		margin-right: 50px;
+		margin-left:30px;
+}
+
+    .main1{
+		margin-top: 1500px;
+	}
+	
+	}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	
+	
+	#logo {
+	text-align: center;
+	}
+	
+	#input input {
+		width: 70%;
+		margin-right: 15%;
+	}
+	
+	.carousel-inner{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	#navbar li img {
+		display: none;
+	} 
+}
