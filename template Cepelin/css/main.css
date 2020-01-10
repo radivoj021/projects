@@ -1,0 +1,214 @@
+#body{
+	background: #3d3d3d;
+}
+
+.center{
+	width: 1870px;
+	margin: 0 auto;
+}
+
+.header{
+	background-image: url("../images/header_background.png");
+	 background-repeat: no-repeat;
+	 height: 1030px;
+}
+
+#header_logo{
+	height: 130px;
+	margin-top: 30px;
+}
+
+.header-nav{
+	margin-top: 40px;
+	margin-left: 505px;
+	position: absolute;
+	z-index: 100;
+}
+
+.header-nav ul li{
+	display: inline;
+	font-size: 20px;
+	margin-right: 50px;
+	font-weight: bold;
+	
+}
+
+.header a{
+	color: #FFFFFF;
+}
+
+.header a:hover,
+.header a:active{
+	color: #f8981d;
+	text-decoration: none;
+	cursor: hand;
+}
+
+.header a:active{
+}
+
+#myCarousel{
+	margin-top: -100px;
+}
+
+.slider{
+	margin-left: 132px;
+}
+
+.content1{
+
+}
+
+#wrapper1{
+	margin-top: 65px;
+	margin-bottom: 196px; 
+}
+
+#content1_text{
+	margin-left: 28px;
+	margin-top: 67px;
+	height: 76px;
+}
+
+.rotate-container{
+	perspective: 700px;
+}
+
+.rotate1{
+	width: 372px;
+	height: 372px;
+	background-image: url('../images/rotate1.png');
+	background-repeat: no-repeat;
+	margin: 0px auto;
+	transition: all 0.6s ease;
+    transform-style: preserve-3d;
+	}
+	
+.front, .back{
+	position: absolute;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;
+}
+
+.front img{
+	margin-top: 78px;
+	margin-left: 38px;
+}
+
+.back img{
+	margin-top: 171px;
+	margin-right: 90px;	
+}
+
+.back{
+	transform: rotateY(180deg);
+}	
+	
+.rotate1:hover{
+	transform: rotateY(180deg); 
+}
+
+.rotate2{
+	width: 372px;
+	height: 372px;
+	background-image: url('../images/rotate2.png');
+	background-repeat: no-repeat;
+	margin: 0px auto;
+	transition: all 0.6s ease;
+    transform-style: preserve-3d;
+}
+
+.rotate2:hover{
+	transform: rotateY(180deg); 
+}
+
+.rotate3{
+	width: 372px;
+	height: 372px;
+	background-image: url('../images/rotate3.png');
+	background-repeat: no-repeat;
+	margin: 0px auto;
+	transition: all 0.6s ease;
+    transform-style: preserve-3d;
+}
+
+.rotate3:hover{
+	transform: rotateY(180deg); 
+}
+
+#rotate3{
+	margin-left: 65px;
+}
+
+#rotate5{
+	margin-left: 78px;
+}
+
+
+.content2{
+	background-image: url("../images/content2_img1.png");
+	background-repeat: no-repeat;
+	height: 658px;
+}
+
+.content2_1{
+	width: 100%;
+	height: 100%;
+}
+
+.content2_1:hover{
+	background-image: url("../images/content2_img2.png");
+	background-repeat: no-repeat;
+	height: 658px;
+}
+
+#cepelin{
+	margin-top: 138px;
+}
+
+#content2_text{
+	margin-top: 30px;
+}
+
+.footer{
+	height: 350px;
+}
+
+#ecomex{
+	margin-left: 66px;
+	margin-top: 73px;
+}
+
+#facebook_icon{
+	margin-left: 66px;
+	margin-top: 20px;
+}
+
+#instagram_icon{
+	margin-top: 20px;
+	margin-left: 40px;
+} 
+
+#mail_icon{
+	margin-top: 20px;
+	margin-left: 40px;
+}
+
+#footer_logo{
+	margin-top: 44px;
+}
+
+#copyright{
+	margin-top: 44px;
+}
+
+#arrow{
+	margin-top: 68px;
+}
+
+#fb_like{
+	margin-top: 73px;
+	float: right;
+	margin-right: 75px;
+}
