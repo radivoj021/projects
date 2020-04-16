@@ -1,0 +1,304 @@
+ #body{
+	 background-color: #eef7d7;
+ }
+ 
+ #top{
+	background-image: url("../slike/fest.jpg");
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+ }
+ 
+ #bendovi1{
+	 font-size: 80px;
+	 color: black; 
+	 font-weight: bold;
+ } 
+ 
+ #bendovi2{
+	 font-size: 50px;
+	 color: white; 
+	 font-weight: bold;
+	 background-color: black;
+	 width: 100%;
+	 text-align: right;
+	 padding-right: 15px;
+	 text-transform: uppercase;
+	 height: 70px;
+	 text-shadow: 3px 3px 17px rgba(255, 255, 0, 0.62);
+-webkit-box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 1);
+-moz-box-shadow:    0px 4px 22px 0px rgba(0, 0, 0, 1);
+box-shadow:         0px 4px 22px 0px rgba(0, 0, 0, 1);
+ }
+ 
+ #bendovi3{
+	  font-size: 30px;
+	  height: 70px;
+	 color: orange; 
+	 font-weight: bold;
+	 background-color: black;
+	 width: 100%;
+	 text-align: left;
+	 padding-left: 15px;
+	 text-transform: uppercase;
+	 text-shadow: 3px 3px 17px rgba(255, 255, 0, 0.62);
+	 -webkit-box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 1);
+-moz-box-shadow:    0px 4px 22px 0px rgba(0, 0, 0, 1);
+box-shadow:         0px 4px 22px 0px rgba(0, 0, 0, 1);
+text-decoration: underline;
+ }
+ 
+ #ispod{
+	 text-decoration: uppercase;
+	 color: black;
+	 font-size: 25;
+	 background-color: white;
+	 padding: 10px;
+	 margin-bottom: 20px;
+	 font-weight: bold;
+	 border: 10px solid transparent;
+	 border-image: url("../slike/border.png") 5 round;
+	 -webkit-box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 1);
+-moz-box-shadow:    0px 4px 22px 0px rgba(0, 0, 0, 1);
+box-shadow:         0px 4px 22px 0px rgba(0, 0, 0, 1);
+ }
+ 
+ .btn{
+	 margin-top: 30px;
+	 margin-left: 15px;
+	 margin-right: 15px;
+	 color: white;
+	 font-size: 30px;
+	 border: 2px solid white;
+	 background-color: transparent;
+ }
+ 
+ .btn:hover{
+	 background-color: white;
+ }
+ 
+ #p-naslov{
+	color: white;
+	font-size: 100px;
+ }
+ 
+ #naslov-wrapper{
+	padding-top: 650px;
+ }
+
+ #heder{
+	 background-color: #bee657;
+	 padding-bottom: 20px;
+ }
+ 
+ #danger_tape{
+	background: repeating-linear-gradient(135deg, #ebd007, #ebd007 30px, #555 30px, #555 60px);
+	height: 10px;
+ }
+ 
+ #dng_tp{
+	height: 10px;
+	background: repeating-linear-gradient(135deg, #ebd007, #ebd007 30px, #555 30px, #555 60px);
+ }
+ 
+ #box{
+
+ }
+ 
+ #naslov1{
+	font-size: 100px;
+	font-weight: bold;
+	color: green;
+	font-family: Impact,Charcoal,sans-serif;
+	border-bottom: 10px solid green; 
+ }
+ 
+ #naslov2{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+	padding: 10px;
+	font-family: Impact,Charcoal,sans-serif;
+ }
+ 
+ #naslov1{
+	text-shadow: 3px 0px 4px rgba(150, 150, 150, 1);
+ }
+ 
+ #text-naslov{
+	 margin-top: 40px;
+	 font-weight: bold;
+ }
+ 
+ #prognoza{
+	width: 200px;
+	height: 100px;
+	margin-left: -30px;
+ }
+ 
+ #vreme_box{
+	width: 200px;
+	height: 100px;
+	margin-top: 40px;
+	
+ }
+ 
+ #social{
+	margin-top: 10px;
+}
+
+#social img{
+	padding-right: 10px;
+	padding-left: 15px;
+}
+
+#meni_row{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#meni a{
+	padding: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	color: green;
+}
+
+#meni2{
+	margin-top: 5px;
+	width: 100%;
+	color: black;
+}
+
+#meni2 a{
+	padding: 10px;
+	color: black;
+	cursor: pointer;
+	
+}
+
+#social_wrapper{
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding: 10px;
+	background-color: #eeeeee;
+	-webkit-box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 1);
+-moz-box-shadow:    0px 4px 22px 0px rgba(0, 0, 0, 1);
+box-shadow:         0px 4px 22px 0px rgba(0, 0, 0, 1);
+}
+
+#karte a{
+	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#196d00+1,e9f900+100 */
+background: rgb(25,109,0); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(25,109,0,1) 1%, rgba(233,249,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(25,109,0,1) 1%,rgba(233,249,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(25,109,0,1) 1%,rgba(233,249,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#196d00', endColorstr='#e9f900',GradientType=0 ); /* IE6-9 */
+
+	width: 200px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	float: right;
+	color: green;
+	border-radius: 5px;
+	border: 2px solid green;
+} 
+
+#karte a:hover{
+	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7ef00+0,006e2e+100 */
+background: rgb(247,239,0); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(247,239,0,1) 0%, rgba(0,110,46,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(247,239,0,1) 0%,rgba(0,110,46,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(247,239,0,1) 0%,rgba(0,110,46,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7ef00', endColorstr='#006e2e',GradientType=0 ); /* IE6-9 */
+;
+	width: 200px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	float: right;
+	color: yellow;
+	border-radius: 5px;
+}
+
+#karte_txt{
+	font-size: 20px;
+	font-weight: bold;
+	color: green;
+	margin-top: 30px;
+}
+
+#slideshow_btn{
+	margin-bottom: -50px;
+	padding-top: 10px;
+	color: green;
+	font-size: 30px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+@-webkit-keyframes color_change {
+	from { background-color: blue; }
+	to { background-color: red; }
+}
+@-moz-keyframes color_change {
+	from { background-color: blue; }
+	to { background-color: red; }
+}
+@-ms-keyframes color_change {
+	from { background-color: blue; }
+	to { background-color: red; }
+}
+@-o-keyframes color_change {
+	from { background-color: blue; }
+	to { background-color: red; }
+}
+@keyframes color_change {
+	from { background-color: blue; }
+	to { background-color: red; }
+}
+
+
+
+#row3{
+	margin-bottom: 20px;
+}
+
+#txt1{
+	margin-left: -20px;
+}
+
+#najava{
+	font-weight: bold;
+	font-size: 40px;
+	color: black;
+	border-bottom: 5px solid black;
+	margin-top: 30px;
+}
+
+#najava_text{
+	padding: 10px;
+	border-bottom: 1px solid black;
+	margin-bottom: 30px;
+}
+
+#slika_najava{
+	width: 100%;
+	padding: 5px;
+
+}
+
+#footer{
+	background-color: #496b4f;
+	padding: 10px;
+}
+
+#footer-meni a, span{
+	color: 	#dcdcdc;
+	padding: 20px;
+	font-size: 14px;
+}

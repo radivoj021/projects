@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Frogvil/Video</title>
+
+	<!--<script src="./jquery.min.js"></script>-->   <!-- <meta http-equiv="refresh" content="1"> -->
+	<script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+	<script src="./js/video.js"></script>
+	<link rel="stylesheet" href="./css/video.css"/>
+
+	<script type="text/javascript">
+	
+		function goClicked() {
+			$('#youmax').empty().append(' loading ...');
+			
+			$('#youmax').youmax({
+				apiKey:'AIzaSyDEm5wGLsWi2G3WG40re-DAJcWioQSpJ6o',
+				youTubeChannelURL:$('#youTubeChannelUrl').val(),
+				
+				youTubePlaylistURL:$('#youTubePlaylistUrl').val(),
+				youmaxDefaultTab:"UPLOADS",
+				youmaxColumns:3,
+				showVideoInLightbox:false,
+				maxResults:15,
+				
+			});
+
+			//youTubeChannelURL=$('#youTubeChannelUrl').val();
+			//youTubePlaylistURL=$('#youTubePlaylistUrl').val();
+		}
+
+	</script>
+
+	
+	<style>
+
+     
+        
+      body {
+          
+          
+          
+          
+       font-family:Arial, Helvetica, sans-serif;
+        font-size: 14px;
+		text-align:center;
+
+      }
+	  
+	  #youmax{width:100% !important;}
+	  #youmax-video-list-div{background-color:rgb(53,53,53) !important;}
+	  #youmax-tabs{background-color:rgb(53,53,53) !important;}
+	  #youmax-header{background-color:#669900 !important;}
+	  .youmax-video-list-title{color:white !important;}
+	  .youmax-video-list-views{color:green !important;}
+	  
+	
+	</style>
+
+	</head>
+
+      	
+          
+<body style="	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-image:url(../slike/back.png);">
+    
+    
+    
+      	<div id="logo" align="center">
+            	<a href="../index.html"><img src="../slike/zabanazad2.png"  width="20%" alt="logo frogvil" /></a>
+
+
+	
+	
+		
+<div id="youmax"></div>
+
+<br/><br/>
+
+
+
+<br/><br/><br/>
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+
+
+	<script>
+		$('#youmax').youmax({
+			apiKey:'AIzaSyDEm5wGLsWi2G3WG40re-DAJcWioQSpJ6o',
+			youTubeChannelURL:"https://www.youtube.com/channel/UCsDGUgZAv9K3ZdGS-t-jsNg",
+			
+			youTubePlaylistURL:"#",
+			youmaxDefaultTab:"UPLOADS",
+			youmaxColumns:3,
+			showVideoInLightbox:false,
+			maxResults:15,
+			
+		});
+		
+	
+	</script>
+
+  </body>
+</html>
+
+
+

@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
+
+#field {
+  width: 100%;
+  overflow: hidden;
+}
+
+.brd {
+  transform: scaleX(-1);
+  width: inherit;
+  position: relative;
+}
+
+.none {
+  display: none;
+}
+
+#bird1 {
+  background-size: cover;
+  border-radius: 50%;
+  animation: move 21s linear infinite;
+  width: 50px;
+}
+
+#bird2 {
+  background-size: cover;
+  border-radius: 50%;
+  width: 100px;
+  animation: move 8s linear infinite;
+}
+
+#bird3 {
+  background-size: cover;
+  border-radius: 50%;
+  width: 80px;
+  animation: move 12s linear infinite;
+}
+
+#balloon {
+  background-image: url("balloon.gif");
+  width: 160px;
+  height: 200px;
+  background-size: cover;
+  margin-top: -100px;
+  z-index: -10;
+  animation: move 40s linear infinite;
+}
+
+#bird4 {
+  background-size: cover;
+  border-radius: 50%;
+  margin-top: -50px;
+  width: 220px;
+  animation: move 6s linear infinite;
+}
+
+#bird5 {
+  background-size: cover;
+  border-radius: 50%;
+  width: 100px;
+  animation: move 9s linear infinite;
+}
+
+#bird6 {
+  background-size: cover;
+  border-radius: 50%;
+  width: 50px;
+  animation: move 16s linear infinite;
+}
+#bird7 {
+  background-size: cover;
+  border-radius: 50%;
+  width: 200px;
+  animation: move 7s linear infinite;
+}
+#bird8 {
+  background-size: cover;
+  border-radius: 50%;
+  width: 100px;
+  animation: move 10s linear infinite;
+}
+#bird9 {
+  background-size: cover;
+  border-radius: 50%;
+  width: 50px;
+  animation: move 12s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(-300px);
+  }
+  100% {
+    transform: translateX(2000px);
+  }
+}
+
+*:hover {
+  cursor: crosshair;
+}
+
+#counter {
+  margin-right: 50px;
+  float: right;
+  background-color: lightseagreen;
+  padding: 20px;
+  opacity: 10;
+  color: white;
+  display: block;
+  font-size: 40px;
+  font-weight: bold;
+  width: 300px;
+  font-family: sans-serif;
+  border-radius: 25px;
+  opacity: 0.7;
+  -webkit-box-shadow: 0px 3px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 17px 0px rgba(0, 0, 0, 0.75);
+  text-shadow: 2px 0px 4px rgba(0, 0, 0, 1);
+}
+
+#fire {
+  width: 300px;
+  background-color: rgb(15, 15, 15);
+  margin-left: 50px;
+  height: 140px;
+  float: left;
+  padding: 10px;
+  opacity: 0.7;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 3px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+#one {
+  width: 70px;
+  height: 70px;
+  background-color: green;
+  float: left;
+  margin-top: 40px;
+  margin-left: 40px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#rafal {
+  width: 70px;
+  height: 70px;
+  background-color: crimson;
+  float: right;
+  margin-top: 40px;
+  margin-right: 40px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#txt1 {
+  color: white;
+  float: left;
+  margin-left: 55px;
+  position: absolute;
+}
+
+#txt2 {
+  color: white;
+  float: right;
+  margin-left: 100px;
+  position: absolute;
+}
+
+.fire {
+  border: 2px solid white;
+  -webkit-box-shadow: 3px 4px 68px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 3px 4px 68px 0px rgba(255, 255, 255, 1);
+  box-shadow: 3px 4px 68px 0px rgba(255, 255, 255, 1);
+}
+
+#egg1 {
+  width: 25px;
+  height: 50px;
+  background-color: honeydew;
+  margin-top: -20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  visibility: hidden;
+}
+
+.poof {
+  background-image: url("poof.png");
+  animation: poof 2s;
+}
+
+@keyframes poof {
+  0% {
+    opacity: 1;
+  }
+  100%{
+    opacity: 0
+  }
+}
+
+.fall {
+  visibility: visible;
+  animation: fall 5s linear;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(2000px);
+  }
+}

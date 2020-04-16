@@ -1,0 +1,328 @@
+<html>
+	<head>
+		<title>Frogville Festival</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"></link>
+		
+		<script src="js/jquery-1.11.3.js"></script>
+		
+		<script src="fancybox/source/jquery.fancybox.js"></script>
+		<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" media="screen">
+		
+		<script src="js/bootstrap.js"></script>
+		
+		<!-- Important Owl stylesheet -->
+		<link rel="stylesheet" href="owl/owl-carousel/owl.carousel.css">
+ 
+		<!-- Default Theme -->
+		<link rel="stylesheet" href="owl/owl-carousel/owl.theme.css">
+		 
+		 <!-- Include js plugin -->
+		<script src="owl/owl-carousel/owl.carousel.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/main.css"></link>
+		
+		<script src="js/main.js"></script>
+		
+		<style>
+			#galerija{
+				margin-top: 30px;
+			}
+		</style>
+	</head>
+	
+	<body id="body">
+	
+		<div class="row">
+			<div id="top">
+	
+				<center>
+					<div id="naslov-wrapper">
+					    <div id="p-naslov">FROGVILLE festival</div>
+						<button class="btn" id="btn">Go to the site</button> <button class="btn" id="btn">more photos</button>					
+					</div>
+					
+				</center>
+			</div>
+		</div>
+		
+		<script>	
+			$("#top").show();
+		
+			$("#btn").on("click", function(){
+				$("#top").slideUp(1000);
+			});
+		</script>
+	
+		<div class="row" id="heder">
+			<div class="container">
+				<div class="col-md-7" id="naslov1">
+					Frogville Fest
+				</div>
+				<div class="col-md-3" id="text-naslov">
+					Muzicki festival u Zablju<br>
+					Mesto dobrog provoda<br>
+					<div id="social">
+						<div>
+							<div class="fb-like" data-href="file:///C:/Users/Radivoj/Desktop/Practice%202/Frogvil/index.html" data-width="30" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+						</div>
+						<a href="https://www.facebook.com/FrogvilleFest/?fref=ts" target="_blank"><img src="slike/fb.png"></a>
+						<a href=""><img src="slike/tw.png"></a>
+						<a href=""><img src="slike/goo.png"></a>
+					</div>
+				</div>
+				<div class="col-md-2" id="prognoza">
+					 <div id="vreme_box">
+						    <iframe src="http://www.naslovi.net/vremenska-prognoza/widget/novi-sad?bgcolor=BEE657&textcolor=#bee657" frameborder="0" height="70" scrolling="no" width="160"></iframe>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="col-md-12" id="line1">
+					<div id="meni">
+						<a href="index.html">home</a>
+						<a href="">o nama</a>
+						<a>slike</a>
+						<a href="">muzika</a>
+						<a href="">istorija</a>
+					</div>
+					
+				</div>
+			</div>
+	
+			<div class="container">
+				<div id="social_wrapper" class="container-fluid">
+					<div class="col-md-6" id="txt1">
+						Organiacija: Udruzenje gradjana<br>
+						<div class="glyphicon glyphicon-earphone"></div> Kontakt telefon: 0212121211
+					</div>
+					
+					<a href="#top">
+						<div id="slideshow_btn">
+							SLIDESHOW
+						</div>
+					</a>
+					
+					<script>
+						$("#slideshow_btn").on("click", function(){
+							$("#top").slideDown(1000);
+						});
+					</script>
+					
+					<div class="col-md-offset-3 col-md-3" >
+						<div id="karte">
+							<a href="#"><center>Karte</center></a>
+						</div>
+					</div>
+					<br>
+				</div>
+				
+			
+				<div id="dng_tp">
+				
+				</div>
+			
+			
+				
+				<div id="meni2">
+					<center>
+						<a id="vesti" >Vesti</a>
+						<a id="muzika">Muzika</a>
+						<a id="bendovi">Bendovi</a>
+						<a id="instrumenti">Instrumenti</a>
+						<a id="oprema">Oprema</a>
+						<a id="dogadjaji">Dogadjaji</a>
+					</center>
+				</div>
+			</div>
+			
+		</div>
+		
+		
+		<div class="container">
+			<p id="karte_txt">
+				Karte za Frogville Fest 2016. se mogu nabaviti u kafeu Sting na tribini stadiona Karađorđe u Novom Sadu, u prostorijama Gigstixa u Pariskom magazinu i na dan koncerta na vratima festivala na Malom stadionu u Žablju.
+			</p>
+		</div>
+				
+		
+		<script>
+				$("#karte_txt").hide();
+				
+				$("#karte").on("click", function(){
+					$("#karte_txt").toggle(function(){
+						$("#vesti_tog").fadeOut();
+						$("#vesti_tog2").fadeOut();
+						$("#vesti_tog3").fadeOut();
+						$("#vesti_tog4").fadeOut();
+						$("#vesti_tog5").fadeOut();
+						$("#vesti_tog6").fadeOut();
+						
+						
+					});
+				});
+		</script>
+		
+		<div class="container" id="vesti_tog">
+			<iframe src='http://www.naslovi.net/plugin/vesti_dana.php?broj_vesti=4&slike=desno&bgcolor=ffffff' frameBorder='0' scrolling='yes' width='98%'  height='300' vspace='4' ></iframe>
+		</div>
+		
+		<div class="container" id="vesti_tog2">	
+			<iframe src='http://www.naslovi.net/plugin/vesti_dana.php?broj_vesti=4&slike=desno&bgcolor=ffffff' frameBorder='0' scrolling='yes' width='98%'  height='400' vspace='4'></iframe>
+		</div> 
+		
+		<div class="container" id="vesti_tog3">	
+			<iframe src='http://www.naslovi.net/plugin/vesti_dana.php?broj_vesti=4&slike=desno&bgcolor=ffffff' frameBorder='0' scrolling='yes' width='98%'  height='400' vspace='4'></iframe>
+		</div> 
+		
+		<div class="container" id="vesti_tog4">	
+			<iframe src='http://www.naslovi.net/plugin/vesti_dana.php?broj_vesti=4&slike=desno&bgcolor=ffffff' frameBorder='0' scrolling='yes' width='98%'  height='400' vspace='4'></iframe>
+		</div> 
+		
+		<div class="container" id="vesti_tog5">	
+			<iframe src='http://www.naslovi.net/plugin/vesti_dana.php?broj_vesti=4&slike=desno&bgcolor=ffffff' frameBorder='0' scrolling='yes' width='98%'  height='400' vspace='4'></iframe>
+		</div> 
+		
+		<div class="container" id="vesti_tog6">	
+			<iframe src='http://www.naslovi.net/plugin/vesti_dana.php?broj_vesti=4&slike=desno&bgcolor=ffffff' frameBorder='0' scrolling='yes' width='98%'  height='400' vspace='4'></iframe>
+		</div>	
+		
+		<script>
+		
+		
+			
+			$("#vesti_tog").hide();
+			$("#vesti_tog2").hide();
+			$("#vesti_tog3").hide();
+			$("#vesti_tog4").hide();
+			$("#vesti_tog5").hide();
+			$("#vesti_tog6").hide();
+			
+			$("#vesti").on("click", function(){
+				$("#vesti_tog").toggle( function(){
+						$("#vesti_tog2").hide();
+						$("#vesti_tog3").hide();
+						$("#vesti_tog4").hide();
+						$("#vesti_tog5").hide();
+						$("#vesti_tog6").hide();
+				});
+			});
+			
+			$("#muzika").on("click", function(){
+				$("#vesti_tog2").toggle( function(){
+						$("#vesti_tog").hide();
+						$("#vesti_tog3").hide();
+						$("#vesti_tog4").hide();
+						$("#vesti_tog5").hide();
+						$("#vesti_tog6").hide();
+				});
+			}); 
+			
+			$("#bendovi").on("click", function(){
+				$("#vesti_tog3").toggle( function(){
+						$("#vesti_tog").hide();
+						$("#vesti_tog2").hide();
+						$("#vesti_tog4").hide();
+						$("#vesti_tog5").hide();
+						$("#vesti_tog6").hide();
+				});
+			}); 
+			
+			$("#instrumenti").on("click", function(){
+				$("#vesti_tog4").toggle(function(){
+						$("#vesti_tog").hide();
+						$("#vesti_tog2").hide();
+						$("#vesti_tog3").hide();
+						$("#vesti_tog5").hide();
+						$("#vesti_tog6").hide();
+				});
+			}); 
+			
+			$("#oprema").on("click", function(){
+				$("#vesti_tog5").toggle(function(){
+						$("#vesti_tog").hide();
+						$("#vesti_tog2").hide();
+						$("#vesti_tog3").hide();
+						$("#vesti_tog4").hide();
+						$("#vesti_tog6").hide();
+				});
+			}); 
+			
+			$("#dogadjaji").on("click", function(){
+				$("#vesti_tog6").toggle(function(){
+						$("#vesti_tog").hide();
+						$("#vesti_tog2").hide();
+						$("#vesti_tog3").hide();
+						$("#vesti_tog4").hide();
+						$("#vesti_tog5").hide();
+				});
+			});
+		</script>
+	
+	<div class="container" id="galerija">
+		<div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+			<a class="thumbnail fancybox" rel="ligthbox" href="slike/slika1.png">
+				<img class="img-responsive" alt="" src="slike/slika1.png" />
+				<div class='text-right'>
+				</div> <!-- text-right / end -->
+			</a>
+		</div> <!-- col-6 / end -->
+		
+		<div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+			<a class="thumbnail fancybox" rel="ligthbox" href="slike/slika2.png">
+				<img class="img-responsive" alt="" src="slike/slika2.png" />
+				<div class='text-right'>
+				</div> <!-- text-right / end -->
+			</a>
+		</div> <!-- col-6 / end --> 
+		
+		<div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+			<a class="thumbnail fancybox" rel="ligthbox" href="slike/slika3.png">
+				<img class="img-responsive" alt="" src="slike/slika3.png" />
+				<div class='text-right'>
+				</div> <!-- text-right / end -->
+			</a>
+		</div> <!-- col-6 / end --> 
+		
+		<div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+			<a class="thumbnail fancybox" rel="ligthbox" href="slike/slika4.png">
+				<img class="img-responsive" alt="" src="slike/slika4.png" />
+				<div class='text-right'>
+				</div> <!-- text-right / end -->
+			</a>
+		</div> <!-- col-6 / end --> 
+		
+		<div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+			<a class="thumbnail fancybox" rel="ligthbox" href="slike/slika5.png">
+				<img class="img-responsive" alt="" src="slike/slika5.png" />
+				<div class='text-right'>
+				</div> <!-- text-right / end -->
+			</a>
+		</div> <!-- col-6 / end -->
+		
+		<div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+			<a class="thumbnail fancybox" rel="ligthbox" href="slike/slika6.png">
+				<img class="img-responsive" alt="" src="slike/slika6.png" />
+				<div class='text-right'>
+				</div> <!-- text-right / end -->
+			</a>
+		</div> <!-- col-6 / end --> 
+		
+		<div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+			<a class="thumbnail fancybox" rel="ligthbox" href="slike/slika7.png">
+				<img class="img-responsive" alt="" src="slike/slika7.png" />
+				<div class='text-right'>
+				</div> <!-- text-right / end -->
+			</a>
+		</div> <!-- col-6 / end --> 
+		
+		<div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
+			<a class="thumbnail fancybox" rel="ligthbox" href="slike/slika8.png">
+				<img class="img-responsive" alt="" src="slike/slika8.png" />
+				<div class='text-right'>
+				</div> <!-- text-right / end -->
+			</a>
+		</div> <!-- col-6 / end -->
+</div>
+	
+</html>

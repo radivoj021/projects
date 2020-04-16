@@ -1,0 +1,347 @@
+<html>
+	<head>
+		<title>Frogville Festival</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"></link>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<!-- Important Owl stylesheet -->
+		<link rel="stylesheet" href="owl/owl-carousel/owl.carousel.css">
+ 
+		<!-- Default Theme -->
+		<link rel="stylesheet" href="owl/owl-carousel/owl.theme.css">
+		 
+		<!-- Include js plugin -->
+		<script src="owl/owl-carousel/owl.carousel.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/main.css"></link>
+		<script src="js/main.js"></script>
+		<style>
+			#video{
+				margin-bottom: 30px;
+			}
+		</style>
+	</head>
+	
+	<body id="body">
+	
+		<div class="row">
+			<div id="top">
+	
+				<center>
+					<div id="naslov-wrapper">
+					    <div id="p-naslov">FROGVILLE festival</div>
+						<button class="btn" id="btn">Go to the site</button> <button class="btn" id="btn">more photos</button>					
+					</div>
+					
+				</center>
+			</div>
+		</div>
+		
+		<script>	
+			$("#top").hide();
+		
+			$("#btn").on("click", function(){
+				$("#top").slideUp(1000);
+			});
+		</script>
+	
+		<div class="row" id="heder">
+			<div class="container">
+				<div class="col-md-7" id="naslov1">
+					Frogville Fest
+				</div>
+				<div class="col-md-3" id="text-naslov">
+					Muzicki festival u Zablju<br>
+					Mesto dobrog provoda<br>
+					<div id="social">
+						<div>
+							<div class="fb-like" data-href="file:///C:/Users/Radivoj/Desktop/Practice%202/Frogvil/index.html" data-width="30" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+						</div>
+						<a href="https://www.facebook.com/FrogvilleFest/?fref=ts" target="_blank"><img src="slike/fb.png"></a>
+						<a href=""><img src="slike/tw.png"></a>
+						<a href=""><img src="slike/goo.png"></a>
+					</div>
+				</div>
+				<div class="col-md-2" id="prognoza">
+					 <div id="vreme_box">
+						    <iframe src="http://www.naslovi.net/vremenska-prognoza/widget/novi-sad?bgcolor=BEE657&textcolor=#bee657" frameborder="0" height="70" scrolling="no" width="160"></iframe>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="col-md-12" id="line1">
+					<div id="meni">
+						<a href="">home</a>
+						<a href="">o nama</a>
+						<a href="gallery.html">slike</a>
+						<a href="">muzika</a>
+						<a href="">istorija</a>
+					</div>
+					
+				</div>
+			</div>
+	
+			<div class="container">
+				<div id="social_wrapper" class="container-fluid">
+					<div class="col-md-6" id="txt1">
+						Organiacija: Udruzenje gradjana<br>
+						<div class="glyphicon glyphicon-earphone"></div> Kontakt telefon: 0212121211
+					</div>
+					
+					<a href="#top">
+						<div id="slideshow_btn">
+							SLIDESHOW
+						</div>
+					</a>
+					
+					<script>
+						$("#slideshow_btn").on("click", function(){
+							$("#top").slideDown(1000);
+						});
+					</script>
+					
+					<div class="col-md-offset-3 col-md-3" >
+						<div id="karte">
+							<a href="#"><center>Karte</center></a>
+						</div>
+					</div>
+					<br>
+				</div>
+				
+			
+				<div id="dng_tp">
+				
+				</div>
+			
+			
+				
+				<div id="meni2">
+					<center>
+						<a id="vesti" >Vesti</a>
+						<a id="muzika">Muzika</a>
+						<a id="bendovi">Bendovi</a>
+						<a id="instrumenti">Instrumenti</a>
+						<a id="oprema">Oprema</a>
+						<a id="dogadjaji">Dogadjaji</a>
+					</center>
+				</div>
+			</div>
+			
+		</div>
+		
+		
+		<div class="container">
+			<p id="karte_txt">
+				Karte za Frogville Fest 2016. se mogu nabaviti u kafeu Sting na tribini stadiona Karađorđe u Novom Sadu, u prostorijama Gigstixa u Pariskom magazinu i na dan koncerta na vratima festivala na Malom stadionu u Žablju.
+			</p>
+		</div>
+				
+		
+		<script>
+				$("#karte_txt").hide();
+				
+				$("#karte").on("click", function(){
+					$("#karte_txt").toggle(function(){
+						$("#vesti_tog").fadeOut();
+						$("#vesti_tog2").fadeOut();
+						$("#vesti_tog3").fadeOut();
+						$("#vesti_tog4").fadeOut();
+						$("#vesti_tog5").fadeOut();
+						$("#vesti_tog6").fadeOut();
+						
+						
+					});
+				});
+		</script>
+		
+		<div class="container" id="vesti_tog">
+			<iframe src='https://www.facebook.com/FrogvilleFest/timeline' frameBorder='0' scrolling='yes' width='98%'  height='300' vspace='4' ></iframe>
+		</div>
+		
+		<div class="container" id="vesti_tog2">	
+			<iframe src='http://www.naslovi.net/plugin/vesti_dana.php?broj_vesti=4&slike=desno&bgcolor=ffffff' frameBorder='0' scrolling='yes' width='98%'  height='400' vspace='4'></iframe>
+		</div> 
+		
+		<div class="container" id="vesti_tog3">	
+			<iframe src='http://www.naslovi.net/plugin/vesti_dana.php?broj_vesti=4&slike=desno&bgcolor=ffffff' frameBorder='0' scrolling='yes' width='98%'  height='400' vspace='4'></iframe>
+		</div> 
+		
+		<div class="container" id="vesti_tog4">	
+			<iframe src='http://www.naslovi.net/plugin/vesti_dana.php?broj_vesti=4&slike=desno&bgcolor=ffffff' frameBorder='0' scrolling='yes' width='98%'  height='400' vspace='4'></iframe>
+		</div> 
+		
+		<div class="container" id="vesti_tog5">	
+			<iframe src='http://www.naslovi.net/plugin/vesti_dana.php?broj_vesti=4&slike=desno&bgcolor=ffffff' frameBorder='0' scrolling='yes' width='98%'  height='400' vspace='4'></iframe>
+		</div> 
+		
+		<div class="container" id="vesti_tog6">	
+			<iframe src='http://www.naslovi.net/plugin/vesti_dana.php?broj_vesti=4&slike=desno&bgcolor=ffffff' frameBorder='0' scrolling='yes' width='98%'  height='400' vspace='4'></iframe>
+		</div>	
+		
+		<script>
+		
+		
+			
+			$("#vesti_tog").hide();
+			$("#vesti_tog2").hide();
+			$("#vesti_tog3").hide();
+			$("#vesti_tog4").hide();
+			$("#vesti_tog5").hide();
+			$("#vesti_tog6").hide();
+			
+			$("#vesti").on("click", function(){
+				$("#vesti_tog").toggle( function(){
+						$("#vesti_tog2").hide();
+						$("#vesti_tog3").hide();
+						$("#vesti_tog4").hide();
+						$("#vesti_tog5").hide();
+						$("#vesti_tog6").hide();
+				});
+			});
+			
+			$("#muzika").on("click", function(){
+				$("#vesti_tog2").toggle( function(){
+						$("#vesti_tog").hide();
+						$("#vesti_tog3").hide();
+						$("#vesti_tog4").hide();
+						$("#vesti_tog5").hide();
+						$("#vesti_tog6").hide();
+				});
+			}); 
+			
+			$("#bendovi").on("click", function(){
+				$("#vesti_tog3").toggle( function(){
+						$("#vesti_tog").hide();
+						$("#vesti_tog2").hide();
+						$("#vesti_tog4").hide();
+						$("#vesti_tog5").hide();
+						$("#vesti_tog6").hide();
+				});
+			}); 
+			
+			$("#instrumenti").on("click", function(){
+				$("#vesti_tog4").toggle(function(){
+						$("#vesti_tog").hide();
+						$("#vesti_tog2").hide();
+						$("#vesti_tog3").hide();
+						$("#vesti_tog5").hide();
+						$("#vesti_tog6").hide();
+				});
+			}); 
+			
+			$("#oprema").on("click", function(){
+				$("#vesti_tog5").toggle(function(){
+						$("#vesti_tog").hide();
+						$("#vesti_tog2").hide();
+						$("#vesti_tog3").hide();
+						$("#vesti_tog4").hide();
+						$("#vesti_tog6").hide();
+				});
+			}); 
+			
+			$("#dogadjaji").on("click", function(){
+				$("#vesti_tog6").toggle(function(){
+						$("#vesti_tog").hide();
+						$("#vesti_tog2").hide();
+						$("#vesti_tog3").hide();
+						$("#vesti_tog4").hide();
+						$("#vesti_tog5").hide();
+				});
+			});
+		</script>
+		
+		<div class="row">
+			<div class="container">
+				<div id="najava">
+					Frogvill/2016
+				</div>
+				<div class="col-md-2">
+					<img src="slike/frogvil.jpg"  id="slika_najava" >
+				</div>
+				<div class="col-md-10" id="najava_text" >
+					<marquee direction="up" onmouseover="this.stop()" onmouseout="this.start()">
+					Lorem ipsum dolor sit amet, blandit nisl rutrum suscipit rutrum hendrerit congue, porta sblandit nisl rutrum suscipit rutrum hendrerit congue, porta sblandit nisl rutrum suscipit rutrum hendrerit congue, porta sblandit nisl rutrum suscipit rutrum hendrerit congue, porta sblandit nisl rutrum suscipit rutrum hendrerit congue, porta sblandit nisl rutrum suscipit rutrum hendrerit congue, porta sblandit nisl rutrum suscipit rutrum hendrerit congue, porta sblandit nisl rutrum suscipit rutrum hendrerit congue, porta sblandit nisl rutrum suscipit rutrum hendrerit congue, porta suscipit sed quis sem, vestibulum eu consectetuer sociosqu placerat lacinia. Cursus nisl pellentesque quam, senectus sit conubia congue. Pulvinar in, eu ultrices quis sit praesent posuere pellentesque. Viverra metus vitae, ut amet vel ante, inceptos lobortis. Volutpat ullamcorper turpis, nunc quisque. Eu cursus vitae vel duis, tincidunt id augue est sed, bibendum ut arcu elit nibh tempus non, pharetra nibh, justo eu risus accumsan odio urna. In felis a vel in bibendum. Placeat cras pretium in, sed enim viverra ipsum ac non, rhoncus nulla vitae purus, fusce sem elit, erat magna bibendum fringilla aliquam. Dolor dui lectus lorem a pede, nonummy dignissim fusce quam in, est mauris ad donec. Quis diam tellus varius, adipiscing nullam facilisis orci. Pulvinar augue nulla sed porttitor aut, nisl lectus, lectus nulla lorem proin faucibus duis diam.
+					</marquee>
+				</div>
+
+				<div id="bodytxt1">
+					
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div class="row">
+			<div class="container" class="col-md-12">
+				<center><p id="bendovi1">Bendovi</p><br></center>
+					<div class="col-md-6">
+						<div id="bendovi2">rock 100's</div><br><br>
+						<div id="bendovi2">Kler</div><br><br>
+						<div id="bendovi2">Wolfram</div><br><br>
+						<div id="bendovi2">who see</div><br><br>
+						<div id="bendovi2">Dubioza</div><br><br>
+						<div id="bendovi2">DJevi</div><br><br>
+					</div>
+					
+					<div class="col-md-6">
+						<div id="bendovi3">21:00-21:30</div><br><br>
+						<div id="bendovi3">21:30-22:30</div><br><br>
+						<div id="bendovi3">22:30-23:30</div><br><br>
+						<div id="bendovi3">23:30-00:30</div><br><br>
+						<div id="bendovi3">00:30-02:00</div><br><br>
+						<div id="bendovi3">02:00-04:00</div><br><br>
+					</div>
+			</div>
+			
+			<div class="container" id="video">
+				<iframe width="100%" height="500" src="https://www.youtube.com/embed/Pxy1IQwsdfw" frameborder="0" allowfullscreen></iframe>
+			</div>
+			
+			<div class="container">
+				<div id="ispod">
+											Karte za Frogville Fest 2016. se mogu nabaviti u kafeu Sting na tribini stadiona KaraÄ‘orÄ‘e u Novom Sadu, u prostorijama Gigstixa u Pariskom magazinu i na dan koncerta na vratima festivala na Malom stadionu u Å½ablju.
+
+				</div>
+			</div>
+			
+			
+		</div>
+		
+		<div class="row">
+			<div class="container">
+				<div id="mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d358680.01942134893!2d19.84879683053656!3d45.38538533208293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b21880dc51b89%3A0x99cc40e167bb96cd!2z0JbQsNCx0LDRmQ!5e0!3m2!1ssr!2srs!4v1451470864669" width=100% height="450" style="border: 1px solid black;" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="row" id="danger_tape">
+			
+		</div>
+		
+		
+		<div class="row" id="footer">
+			<div class="container">
+				<div id="footer-meni">
+					<center>
+						<br>
+						<a href="#">home</a><span> / </span>
+						<a href="#">o nama</a><span> / </span>
+						<a href="#">slike</a><span> / </span>
+						<a href="#">muzika</a><span> / </span>
+						<a href="#">istorija</a>
+						<br>
+						<br>
+						
+						<span>
+							Copyright © Radivoj Apic rapic.021@gmail.com 0695525755
+						</span>
+					</center>	
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
